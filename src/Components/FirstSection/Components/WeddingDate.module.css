@@ -1,0 +1,116 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+/* Animation for fading in */
+.fadeIn {
+    animation: fadeIn 1s ease-in forwards;
+    /* Fade-in over 1 second */
+}
+
+/* Animation for fading out */
+.fadeOut {
+    animation: fadeOut 1s ease-out forwards;
+    /* Fade-out over 1 second */
+}
+
+/* # images on hero section # */
+
+.pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-animation: fade 48s infinite;
+    animation: fade 48s infinite;
+}
+
+#pic1 {
+    animation-delay: 0s;
+    background-image: url('/preImage/pre-wedding.jpg');
+}
+
+#pic2 {
+    background-image: url('/preImage/7.jpg');
+    animation-delay: 8s;
+}
+
+#pic3 {
+    background-image: url('/preImage/pre-wedding-4.jpg');
+    animation-delay: 16s;
+}
+
+#pic4 {
+    background-image: url('/preImage/pre-wedding-6.jpg');
+    animation-delay: 24s;
+}
+
+#pic5 {
+    background-image: url('/preImage/pre-wedding-7.jpg');
+    animation-delay: 32s;
+}
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    34% {
+        opacity: 0;
+    }
+
+    88% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    34% {
+        opacity: 1;
+    }
+
+    88% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
