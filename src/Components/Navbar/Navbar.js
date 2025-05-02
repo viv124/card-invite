@@ -102,7 +102,7 @@ export default function Navbar() {
                     scrollToSection(item.href, 0);
                   }}
                 >
-                  {item.name}
+                  <strong>{item.name}</strong>
                 </a>
               ))}
             </div>
@@ -117,6 +117,9 @@ export default function Navbar() {
                 <span className="sr-only">Download Invitation Card</span>
                 <ArrowDownTrayIcon aria-hidden="true" className="size-6" />
               </button>
+              <span className="ml-3 text-sm font-medium text-gray-800">
+                કંકોત્રી / पत्रिका
+              </span>
             </a>
           </div>
         </div>
