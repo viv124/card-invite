@@ -107,7 +107,7 @@ export default function Navbar() {
             </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <a href="/files/Vivek-Kajal.pdf" download>
+            <a href="/files/patrika.pdf" download>
               <button
                 type="button"
                 className="relative rounded-full bg-gray-200 p-2 text-gray-800 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 border border-gray-800"
