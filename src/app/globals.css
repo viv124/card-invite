@@ -160,7 +160,7 @@ body {
 
 #pic1 {
   animation-delay: 0s;
-  background-image: url('/preImage/pre-wedding.jpg');
+  background-image: url('/preImage/pre-wedding-1.jpg');
 }
 
 #pic2 {
@@ -169,7 +169,7 @@ body {
 }
 
 #pic3 {
-  background-image: url('/preImage/pre-wedding.jpg');
+  background-image: url('/preImage/pre-wedding-4.jpg');
   animation-delay: 16s;
 }
 
@@ -179,8 +179,13 @@ body {
 }
 
 #pic5 {
-  background-image: url('/preImage/pre-wedding-4.jpg');
+  background-image: url('/preImage/pre-wedding.jpg');
   animation-delay: 32s;
+}
+
+#pic6 {
+  background-image: url('/preImage/pre-wedding-5.jpg');
+  animation-delay: 40s;
 }
 
 @-webkit-keyframes fade {

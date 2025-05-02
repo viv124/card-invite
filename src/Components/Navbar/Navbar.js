@@ -69,7 +69,6 @@ export default function Navbar() {
                   fontSize: "40px",
                 }}
               >
-                V
                 <img
                   alt="Your Company"
                   src="/wedding.png"
